@@ -1,0 +1,5 @@
+<view wx:for="{{blogArr}}">
+  {{item.userName}}
+</view>
+
+<button open-type="getUserInfo" bindgetuserinfo="getUserinfo">授权</button>
